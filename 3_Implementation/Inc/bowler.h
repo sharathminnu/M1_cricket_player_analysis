@@ -1,4 +1,27 @@
+/**
+ * @file bowler.h
+ * @author v.sharath ()
+ * @brief Header file for bowler calculations
+ * @version 0.1
+ * @date 2022-03-31
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
+#ifndef __BOWLER_H__
+#define __BOWLER_H__
+
 #include <stdio.h>
+
+/**
+ * @brief it calculates the bowler average
+ * 
+ * @param[in] runs 
+ * @param[in] inngs 
+ * @param[in] wkts 
+ * @return returns the average of bowler 
+ */
 long double bowler_avg(int runs[],int inngs,int wkts[])
 {
     float avg = 0;
@@ -20,6 +43,14 @@ long double bowler_avg(int runs[],int inngs,int wkts[])
 
 }
 
+/**
+ * @brief counts the number of overs bowled by bowler
+ * 
+ * @param[in] inngs 
+ * @param[in] overs 
+ * @return number of overs bowled by bowler 
+ */
+
 float no_of_overs(int inngs,float overs[])
 {
     float count=0;
@@ -29,6 +60,15 @@ float no_of_overs(int inngs,float overs[])
     }
     return count;
 }
+
+/**
+ * @brief calculates the economy of the bowler
+ * 
+ * @param[in] runs 
+ * @param[in] inngs 
+ * @param[in] overs 
+ * @return economy of the bowler 
+ */
 
 float bowler_economy(int runs[],int inngs,float overs[])
 {
@@ -49,12 +89,27 @@ float bowler_economy(int runs[],int inngs,float overs[])
 
 }
 
+/**
+ * @brief swaps the variables
+ * 
+ * @param xp 
+ * @param yp 
+ */
+
 void sp(int *xp, int *yp)
 {
     int temp = *xp;
     *xp = *yp;
     *yp = temp;
 }
+
+/**
+ * @brief finds the best wickets taken in an innings by bowler
+ * 
+ * @param[in] inngs 
+ * @param[in] wkts 
+ * @return best wickets taken in an innings by bowler 
+ */
  
 
 
@@ -73,7 +128,15 @@ int best_wkts(int inngs,int wkts[])
     }
     a=("%d",wkts[inngs-1]); 
     return a;
-}    
+}  
+
+/**
+ * @brief calculates total wickets taken by bowler
+ * 
+ * @param[in] inngs 
+ * @param[in] wkts 
+ * @return total wickets 
+ */
 int total_wkts(int inngs,int wkts[])
 {
     int tw =0;
@@ -84,6 +147,14 @@ int total_wkts(int inngs,int wkts[])
     }
     return tw;
 }
+
+/**
+ * @brief finds number fo 5 wicket hauls taken by bowler
+ * 
+ * @param[in] inngs 
+ * @param[in] wkts 
+ * @return  number fo 5 wicket hauls taken by bowler
+ */
 int no_of_5wkts(int inngs,int wkts[])
 {
     int count =0 ;
@@ -97,6 +168,14 @@ int no_of_5wkts(int inngs,int wkts[])
     }
     return count;
 }
+
+/**
+ * @brief finds number fo 3 wicket hauls taken by bowler
+ * 
+ * @param[in] inngs 
+ * @param[in] wkts 
+ * @return number fo 3 wicket hauls taken by bowler 
+ */
 
 int no_of_3wkts(int inngs,int wkts[])
 {
@@ -112,6 +191,14 @@ int no_of_3wkts(int inngs,int wkts[])
 
 }
 
+/**
+ * @brief finds the number of maidens bowled by bowler
+ * 
+ * @param[in] inngs 
+ * @param[in] maidens 
+ * @return  number of maidens bowled by bowler
+ */
+
 int no_of_maidens(int inngs,int maidens[])
 {
     int count =0;
@@ -122,3 +209,5 @@ int no_of_maidens(int inngs,int maidens[])
     }
     return count;
 }
+
+#endif  /*#define __BOWLER_H__*/
