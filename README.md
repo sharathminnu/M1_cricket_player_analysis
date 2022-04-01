@@ -7,3 +7,6 @@ This project takes scores of a cricket players as input and gives their stats as
 * [![Build CI - Linux](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/c-cpp.yml)
 * C/C++ CI - windows
 * [![Build CI -Windows](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/windows.yml/badge.svg)](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/windows.yml)
+
+
+# To run test.c use command (gcc Test/test.c -ITest Inc/batsmen.h Inc/bowler.h -IInc unity/unity.c -Iunity)
