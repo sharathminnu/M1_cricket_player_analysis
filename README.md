@@ -31,4 +31,7 @@ Statistics such as average, best score, best wickets, and so on have been calcul
 * [![Build CI -Windows](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/windows.yml/badge.svg)](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/windows.yml)
 
 
-# To run test.c use command (gcc Test/test.c -ITest Inc/batsmen.h Inc/bowler.h -IInc unity/unity.c -Iunity)
+* To run test.c use command (gcc Test/test.c -ITest Inc/batsmen.h Inc/bowler.h -IInc unity/unity.c -Iunity)
+
+## Project execution video
+* https://drive.google.com/file/d/1NK1-wbJSSDmITrYHPqM0_-2EQc9ZFFQm/view?usp=sharing
