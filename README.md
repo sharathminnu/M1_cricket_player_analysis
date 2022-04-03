@@ -32,7 +32,7 @@ Statistics such as average, best score, best wickets, and so on have been calcul
 * cppcheck
 * [![cppcheck-action](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/cppcheck.yml)
 
-
+### To execute test.c file
 * To run test.c use command (gcc Test/test.c -ITest Inc/batsmen.h Inc/bowler.h -IInc unity/unity.c -Iunity)
 
 ## Project execution video
