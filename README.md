@@ -29,6 +29,8 @@ Statistics such as average, best score, best wickets, and so on have been calcul
 * [![Build CI - Linux](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/c-cpp.yml)
 * C/C++ CI - windows
 * [![Build CI -Windows](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/windows.yml/badge.svg)](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/windows.yml)
+* cppcheck
+* [![cppcheck-action](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/sharathminnu/M1_cricket_player_analysis/actions/workflows/cppcheck.yml)
 
 
 * To run test.c use command (gcc Test/test.c -ITest Inc/batsmen.h Inc/bowler.h -IInc unity/unity.c -Iunity)
